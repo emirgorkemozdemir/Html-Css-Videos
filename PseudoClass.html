@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tbox{
+            width: 120px;
+            height: 25px;
+        }
+
+        .tbox:hover{
+            background-color: red;
+        }
+
+        .tbox:focus{
+            background-color: green;
+        }
+
+        .pclass{
+            color:red;
+        }
+
+        .pclass::first-letter{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" class="tbox">
+    
+    <p class="pclass">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi labore ducimus fugiat eum soluta quod dignissimos delectus nisi maiores voluptas, fugit sit. Incidunt labore similique sed nesciunt corrupti sint excepturi.
+    </p>
+</body>
+</html>

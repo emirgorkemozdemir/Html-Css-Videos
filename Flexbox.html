@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            height: 80vh;
+            background-color: rgb(255, 104, 255);
+           
+          
+        }
+
+        .blackbox{
+            width: 120px;
+            height: 120px;
+            background-color: black;
+            order: 1;
+            flex-grow: 1;
+        }
+
+        .redbox{
+            width: 120px;
+            height: 120px;
+            background-color: red;
+            order: 2;
+            flex-grow: 2;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="blackbox"></div>
+      <div class="redbox"></div>
+    </div>
+</body>
+</html>
