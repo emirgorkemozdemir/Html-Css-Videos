@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width:30vw ;
+    min-height:30vh ;
+}
+
+.circle-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: violet;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius:80px ;
+    transition: 0.8s;
+}
+
+a{
+    text-decoration: none;
+}
+
+.circle-div:hover{
+    background-color: transparent;
+    color: violet;
+    border: 1px solid violet;
+}

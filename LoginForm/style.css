@@ -1,0 +1,59 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/HTML DERSLERİ/image/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-form{
+    background: rgba(0, 0, 0, 0.7);
+    min-width:500px ;
+    min-height: 240px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.tpbox{
+    margin-top: 15px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.btn{
+    margin-top: 30px;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
