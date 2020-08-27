@@ -1,0 +1,10 @@
+.dropdown{
+    border: none;
+    outline: none;
+    background-color: rgb(95, 90, 90);
+    width: 250px;
+    height: 35px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
