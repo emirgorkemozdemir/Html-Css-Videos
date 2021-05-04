@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-search{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    background-color: #3f3f3f;
+    padding: 10px;
+    border: 1px solid #3f3f3f;
+    border-radius: 40px;
+}
+
+.txt-search{
+    float: left;
+    transition: 1s;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 16px;
+    width: 0px;
+}
+
+.search-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    font-size: 20px;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.main-search:hover > .txt-search{
+    width: 180px;
+}
